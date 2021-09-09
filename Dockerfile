@@ -1,4 +1,5 @@
 FROM tindy2013/subconverter:latest
-EXPOSE 25500
+EXPOSE 80
 WORKDIR /base
+ADD pref.ini .
 CMD subconverter
