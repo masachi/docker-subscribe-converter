@@ -1,4 +1,4 @@
 FROM tindy2013/subconverter:latest
-EXPOSE 80
+EXPOSE $PORT
 WORKDIR /base
 ADD pref.ini .
