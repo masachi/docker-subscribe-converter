@@ -1,6 +1,3 @@
 build:
   docker:
     worker: Dockerfile
-setup:
-  ports:
-    - "${PORT}:80"
